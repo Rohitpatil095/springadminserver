@@ -1,0 +1,228 @@
+2024-07-27T22:23:36.060+05:30  INFO 10808 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : Starting EmployeeApplication using Java 19 with PID 10808 (C:\Users\rohit\OneDrive\Desktop\Programming\Current\projects\CompanyPortal\employee\target\classes started by rohit in C:\Users\rohit\OneDrive\Desktop\Programming\Current\projects\CompanyPortal\employee)
+2024-07-27T22:23:36.064+05:30  INFO 10808 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:23:36.211+05:30  INFO 10808 --- [employee] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-27T22:23:36.215+05:30  INFO 10808 --- [employee] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-27T22:23:37.181+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 14 ms.
+2024-07-27T22:23:37.186+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRepository already defined in the application context, skipping the registration of a jobRepository
+2024-07-27T22:23:37.186+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobExplorer already defined in the application context, skipping the registration of a jobExplorer
+2024-07-27T22:23:37.186+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobLauncher already defined in the application context, skipping the registration of a jobLauncher
+2024-07-27T22:23:37.186+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRegistry already defined in the application context, skipping the registration of a jobRegistry
+2024-07-27T22:23:37.186+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRegistryBeanPostProcessor already defined in the application context, skipping the registration of a jobRegistryBeanPostProcessor
+2024-07-27T22:23:37.186+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobOperator already defined in the application context, skipping the registration of a jobOperator
+2024-07-27T22:23:37.186+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 0 ms.
+2024-07-27T22:23:37.402+05:30  INFO 10808 --- [employee] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-27T22:23:37.504+05:30  INFO 10808 --- [employee] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2024-07-27T22:23:37.859+05:30  WARN 10808 --- [employee] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jobRegistry' of type [org.springframework.batch.core.configuration.support.MapJobRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-27T22:23:38.244+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-27T22:23:38.263+05:30  INFO 10808 --- [employee] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:23:38.263+05:30  INFO 10808 --- [employee] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-07-27T22:23:38.324+05:30  INFO 10808 --- [employee] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:23:38.325+05:30  INFO 10808 --- [employee] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2110 ms
+2024-07-27T22:23:38.555+05:30  INFO 10808 --- [employee] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-27T22:23:38.640+05:30  INFO 10808 --- [employee] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-07-27T22:23:38.692+05:30  INFO 10808 --- [employee] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-27T22:23:39.025+05:30  INFO 10808 --- [employee] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-27T22:23:39.076+05:30  INFO 10808 --- [employee] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-27T22:23:39.555+05:30  INFO 10808 --- [employee] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b1aedae
+2024-07-27T22:23:39.557+05:30  INFO 10808 --- [employee] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-27T22:23:39.641+05:30  WARN 10808 --- [employee] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-27T22:23:40.875+05:30  INFO 10808 --- [employee] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-27T22:23:40.969+05:30  INFO 10808 --- [employee] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-27T22:23:41.004+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: MYSQL
+2024-07-27T22:23:41.122+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-27T22:23:41.347+05:30  INFO 10808 --- [employee] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-27T22:23:41.847+05:30  INFO 10808 --- [employee] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static java.lang.String com.office.portal.employee.notification.mailing.Mail.from
+2024-07-27T22:23:41.913+05:30  WARN 10808 --- [employee] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-27T22:23:42.288+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:23:42.320+05:30  INFO 10808 --- [employee] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-07-27T22:23:42.333+05:30  INFO 10808 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : Started EmployeeApplication in 7.028 seconds (process running for 7.737)
+2024-07-27T22:28:49.858+05:30  INFO 10808 --- [employee] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-27T22:28:49.899+05:30  INFO 10808 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-27T22:28:49.935+05:30  INFO 10808 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-27T22:28:58.580+05:30  INFO 24940 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : Starting EmployeeApplication using Java 19 with PID 24940 (C:\Users\rohit\OneDrive\Desktop\Programming\Current\projects\CompanyPortal\employee\target\classes started by rohit in C:\Users\rohit\OneDrive\Desktop\Programming\Current\projects\CompanyPortal\employee)
+2024-07-27T22:28:58.582+05:30  INFO 24940 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:28:58.659+05:30  INFO 24940 --- [employee] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-27T22:28:58.659+05:30  INFO 24940 --- [employee] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-27T22:28:59.396+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 7 ms.
+2024-07-27T22:28:59.401+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRepository already defined in the application context, skipping the registration of a jobRepository
+2024-07-27T22:28:59.401+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobExplorer already defined in the application context, skipping the registration of a jobExplorer
+2024-07-27T22:28:59.401+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobLauncher already defined in the application context, skipping the registration of a jobLauncher
+2024-07-27T22:28:59.401+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRegistry already defined in the application context, skipping the registration of a jobRegistry
+2024-07-27T22:28:59.401+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRegistryBeanPostProcessor already defined in the application context, skipping the registration of a jobRegistryBeanPostProcessor
+2024-07-27T22:28:59.401+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobOperator already defined in the application context, skipping the registration of a jobOperator
+2024-07-27T22:28:59.401+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 0 ms.
+2024-07-27T22:28:59.630+05:30  INFO 24940 --- [employee] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-27T22:28:59.705+05:30  INFO 24940 --- [employee] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2024-07-27T22:29:00.052+05:30  WARN 24940 --- [employee] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jobRegistry' of type [org.springframework.batch.core.configuration.support.MapJobRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-27T22:29:00.388+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-27T22:29:00.406+05:30  INFO 24940 --- [employee] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:29:00.406+05:30  INFO 24940 --- [employee] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-07-27T22:29:00.467+05:30  INFO 24940 --- [employee] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:29:00.467+05:30  INFO 24940 --- [employee] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1807 ms
+2024-07-27T22:29:00.680+05:30  INFO 24940 --- [employee] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-27T22:29:00.760+05:30  INFO 24940 --- [employee] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-07-27T22:29:00.798+05:30  INFO 24940 --- [employee] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-27T22:29:01.102+05:30  INFO 24940 --- [employee] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-27T22:29:01.141+05:30  INFO 24940 --- [employee] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-27T22:29:01.544+05:30  INFO 24940 --- [employee] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@159ad1c
+2024-07-27T22:29:01.544+05:30  INFO 24940 --- [employee] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-27T22:29:01.591+05:30  WARN 24940 --- [employee] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-27T22:29:02.649+05:30  INFO 24940 --- [employee] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-27T22:29:02.696+05:30  INFO 24940 --- [employee] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-27T22:29:02.728+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: MYSQL
+2024-07-27T22:29:02.790+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-27T22:29:02.991+05:30  INFO 24940 --- [employee] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-27T22:29:03.463+05:30  INFO 24940 --- [employee] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static java.lang.String com.office.portal.employee.notification.mailing.Mail.from
+2024-07-27T22:29:03.522+05:30  WARN 24940 --- [employee] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-27T22:29:03.841+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:29:03.874+05:30  INFO 24940 --- [employee] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-07-27T22:29:03.886+05:30  INFO 24940 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : Started EmployeeApplication in 5.761 seconds (process running for 6.338)
+2024-07-27T22:30:00.109+05:30 ERROR 24940 --- [employee] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/leaves/applyleave/fetchPendingRecords": Connection refused: connect
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:538) ~[spring-web-6.1.6.jar:6.1.6]
+	at com.office.portal.employee.businessservice.EmployeeApplyLeaveService.GetEmployeeApplyLeaveDetailsForPendingLeaveStatus(EmployeeApplyLeaveService.java:195) ~[classes/:na]
+	at com.office.portal.employee.batchchannel.jobs.schedulers.EmployeeApplyLeaveNotificationScheduler.sendLeaveNotificationExecutor(EmployeeApplyLeaveNotificationScheduler.java:87) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.1.6.jar:6.1.6]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.12.5.jar:1.12.5]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.1.6.jar:6.1.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.connect(Net.java:579) ~[na:na]
+	at java.base/sun.nio.ch.Net.connect(Net.java:568) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:576) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:600) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1308) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1241) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1127) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1056) ~[na:na]
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889) ~[spring-web-6.1.6.jar:6.1.6]
+	... 18 common frames omitted
+
+2024-07-27T22:32:04.840+05:30  INFO 24940 --- [employee] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-27T22:32:04.859+05:30  INFO 24940 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-27T22:32:04.877+05:30  INFO 24940 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-27T22:34:36.902+05:30  INFO 27384 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : Starting EmployeeApplication using Java 19 with PID 27384 (C:\Users\rohit\OneDrive\Desktop\Programming\Current\projects\CompanyPortal\employee\target\classes started by rohit in C:\Users\rohit\OneDrive\Desktop\Programming\Current\projects\CompanyPortal\employee)
+2024-07-27T22:34:36.905+05:30  INFO 27384 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:34:36.952+05:30  INFO 27384 --- [employee] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-27T22:34:36.953+05:30  INFO 27384 --- [employee] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-27T22:34:37.392+05:30  WARN 27384 --- [employee] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.office.portal.employee.EmployeeApplication]: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+2024-07-27T22:34:37.400+05:30  INFO 27384 --- [employee] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-27T22:34:37.420+05:30 ERROR 27384 --- [employee] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.office.portal.employee.EmployeeApplication]: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746) ~[spring-context-6.1.6.jar:6.1.6]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.office.portal.employee.EmployeeApplication.main(EmployeeApplication.java:22) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.2.5.jar:3.2.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534) ~[spring-context-6.1.6.jar:6.1.6]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Value must only contain valid chars
+	at org.springframework.util.Assert.isTrue(Assert.java:111) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.boot.actuate.endpoint.EndpointId.<init>(EndpointId.java:58) ~[spring-boot-actuator-3.2.5.jar:3.2.5]
+	at org.springframework.boot.actuate.endpoint.EndpointId.fromPropertyValue(EndpointId.java:146) ~[spring-boot-actuator-3.2.5.jar:3.2.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter$EndpointPatterns.<init>(IncludeExcludeEndpointFilter.java:165) ~[spring-boot-actuator-autoconfigure-3.2.5.jar:3.2.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:89) ~[spring-boot-actuator-autoconfigure-3.2.5.jar:3.2.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter.<init>(IncludeExcludeEndpointFilter.java:64) ~[spring-boot-actuator-autoconfigure-3.2.5.jar:3.2.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition$ExposureFilter.<init>(OnAvailableEndpointCondition.java:180) ~[spring-boot-actuator-autoconfigure-3.2.5.jar:3.2.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getExposureFilters(OnAvailableEndpointCondition.java:168) ~[spring-boot-actuator-autoconfigure-3.2.5.jar:3.2.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getMatchOutcome(OnAvailableEndpointCondition.java:117) ~[spring-boot-actuator-autoconfigure-3.2.5.jar:3.2.5]
+	at org.springframework.boot.actuate.autoconfigure.endpoint.condition.OnAvailableEndpointCondition.getMatchOutcome(OnAvailableEndpointCondition.java:74) ~[spring-boot-actuator-autoconfigure-3.2.5.jar:3.2.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.2.5.jar:3.2.5]
+	... 24 common frames omitted
+
+2024-07-27T22:36:30.932+05:30  INFO 24704 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : Starting EmployeeApplication using Java 19 with PID 24704 (C:\Users\rohit\OneDrive\Desktop\Programming\Current\projects\CompanyPortal\employee\target\classes started by rohit in C:\Users\rohit\OneDrive\Desktop\Programming\Current\projects\CompanyPortal\employee)
+2024-07-27T22:36:30.934+05:30  INFO 24704 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:36:30.977+05:30  INFO 24704 --- [employee] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-27T22:36:30.978+05:30  INFO 24704 --- [employee] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-27T22:36:31.606+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 4 ms.
+2024-07-27T22:36:31.609+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRepository already defined in the application context, skipping the registration of a jobRepository
+2024-07-27T22:36:31.610+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobExplorer already defined in the application context, skipping the registration of a jobExplorer
+2024-07-27T22:36:31.610+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobLauncher already defined in the application context, skipping the registration of a jobLauncher
+2024-07-27T22:36:31.610+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRegistry already defined in the application context, skipping the registration of a jobRegistry
+2024-07-27T22:36:31.610+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobRegistryBeanPostProcessor already defined in the application context, skipping the registration of a jobRegistryBeanPostProcessor
+2024-07-27T22:36:31.610+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Bean jobOperator already defined in the application context, skipping the registration of a jobOperator
+2024-07-27T22:36:31.610+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 0 ms.
+2024-07-27T22:36:31.971+05:30  INFO 24704 --- [employee] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-27T22:36:32.032+05:30  INFO 24704 --- [employee] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2024-07-27T22:36:32.395+05:30  WARN 24704 --- [employee] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jobRegistry' of type [org.springframework.batch.core.configuration.support.MapJobRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-27T22:36:32.703+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-27T22:36:32.715+05:30  INFO 24704 --- [employee] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:36:32.715+05:30  INFO 24704 --- [employee] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-07-27T22:36:32.761+05:30  INFO 24704 --- [employee] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:36:32.761+05:30  INFO 24704 --- [employee] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1783 ms
+2024-07-27T22:36:33.046+05:30  INFO 24704 --- [employee] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-27T22:36:33.102+05:30  INFO 24704 --- [employee] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-07-27T22:36:33.132+05:30  INFO 24704 --- [employee] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-27T22:36:33.338+05:30  INFO 24704 --- [employee] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-27T22:36:33.375+05:30  INFO 24704 --- [employee] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-27T22:36:33.696+05:30  INFO 24704 --- [employee] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@750f6ed6
+2024-07-27T22:36:33.698+05:30  INFO 24704 --- [employee] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-27T22:36:33.759+05:30  WARN 24704 --- [employee] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-27T22:36:34.501+05:30  INFO 24704 --- [employee] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-27T22:36:34.583+05:30  INFO 24704 --- [employee] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-27T22:36:34.635+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: MYSQL
+2024-07-27T22:36:34.662+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-27T22:36:34.887+05:30  INFO 24704 --- [employee] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-27T22:36:35.276+05:30  INFO 24704 --- [employee] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: static java.lang.String com.office.portal.employee.notification.mailing.Mail.from
+2024-07-27T22:36:35.349+05:30  WARN 24704 --- [employee] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-27T22:36:36.053+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:36:36.062+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-07-27T22:36:36.147+05:30  INFO 24704 --- [employee] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-07-27T22:36:36.162+05:30  INFO 24704 --- [employee] [restartedMain] c.o.portal.employee.EmployeeApplication  : Started EmployeeApplication in 5.519 seconds (process running for 6.139)
+2024-07-27T22:36:37.177+05:30  INFO 24704 --- [employee] [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as bd28c76c6a9f
+2024-07-27T22:36:37.448+05:30  INFO 24704 --- [employee] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27T22:36:37.449+05:30  INFO 24704 --- [employee] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-27T22:36:37.452+05:30  INFO 24704 --- [employee] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-27T22:37:24.800+05:30  INFO 24704 --- [employee] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-27T22:37:24.825+05:30  INFO 24704 --- [employee] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-27T22:37:24.830+05:30  INFO 24704 --- [employee] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-27T22:37:24.837+05:30  INFO 24704 --- [employee] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
